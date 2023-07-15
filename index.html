@@ -7,12 +7,14 @@
     <title>My Website</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   </head>
   <body>
     <main>
         <!--<h1>Welcome to My Website</h1> -->
         <header class="header">
             <a href="#" class="logo">Portfolio</a>
+            <i class='bx bx-menu' id="menu-icon"></i>
             <nav class="navbar">
                 <a href="#home" class="active">Home</a>
                 <a href="#about">About</a>
@@ -21,6 +23,25 @@
                 <a href="#contact">Contact</a>
             </nav>
         </header> 
+        <!-- Home Section Design -->
+        <section class="home" id="home">
+          <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Nattapat Saipun</h1>
+            <h3>And I'm a <span>Unity Game Develper</span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam perferendis omnis mollitia porro facere. Sint molestiae tempore reiciendis cumque aut deserunt aperiam dolor vero, corrupti incidunt saepe, eligendi asperiores accusantium?</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-discord'></i></a>
+                <a href="#"><i class='bx bxs-envelope'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+          </div>
+          <div class="home-img">
+            <img src="images/home.jpg" alt="">
+          </div>
+        </section>
     </main>
 	<script src="index.js"></script>
   </body>
