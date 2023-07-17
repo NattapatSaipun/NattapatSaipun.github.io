@@ -203,7 +203,7 @@ span{
     transition: .5s ease;
 }
 .portforio-box:hover img  {
-    transform: scale(1,1);
+    transform: scale(1.1);
 }
 .portforio-box .portforio-layer {
     position: absolute;
