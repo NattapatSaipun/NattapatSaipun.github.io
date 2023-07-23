@@ -31,12 +31,12 @@
             <h3>And I'm a <span class="multiple-text"></span></h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam perferendis omnis mollitia porro facere. Sint molestiae tempore reiciendis cumque aut deserunt aperiam dolor vero, corrupti incidunt saepe, eligendi asperiores accusantium?</p>
             <div class="social-media">
-                <a href="#"><i class='bx bxl-facebook'></i></a>
-                <a href="#"><i class='bx bxl-discord'></i></a>
-                <a href="#"><i class='bx bxs-envelope'></i></a>
-                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.facebook.com/people/Otoru-Seiya/100009555090718/?paipv=0&eav=AfZtBxCn9TTKt-xygUxamcrSQqP5SwSK2mxbWjNh1-_ZHoKnVm4AcUEiOJQGCwuurE4&_rdr"><i class='bx bxl-facebook'></i></a>
+                <!-- <a href="#"><i class='bx bxl-discord'></i></a>
+                <a href="#"><i class='bx bxs-envelope'></i></a> -->
+                <a href="https://www.instagram.com/nattapat25245/"><i class='bx bxl-instagram'></i></a>
             </div>
-            <a href="#" class="btn">Download CV</a>
+            <a href="images/Portforio7.png" download="testDown1" class="btn">Portfolio & Resume</a>
           </div>
           <div class="home-img">
             <img src="images/home.jpg" alt="">
@@ -154,16 +154,20 @@
           <section class="contact" id="contact">
             <h2 class="heading">Contact <span>Me!</span></h2>
 
-            <form action="#">
+            <form action="https://formsubmit.co/cb9d448844e2812aefce2a075f079677 " method="POST">
               <div class="input-box">
-                <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email Address">
+                <input type="text" name="name" required placeholder="Full Name">
+                <input type="email" name="Email Address" required placeholder="Email Address">
               </div>
               <div class="input-box">
-                <input type="number" placeholder="Mobile Number">
-                <input type="text" placeholder="Email Subject">
+                <input type="number" name="Mobile Number" required placeholder="Mobile Number">
+                <input type="text" name="Email Subject" required placeholder="Email Subject">
               </div>
-              <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+              <textarea  id="" cols="30" rows="10" name="Message" required placeholder="Your Message"></textarea>
+              <input type="hidden" name="_captcha" value="false">
+              <!-- <input type="hidden" name="_cc" value="another@email.com,yetanother@email.com"> -->
+              <!-- <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html"> -->
+              <input type="hidden" name="_template" value="table">
               <input type="submit" value="Send Massage" class="btn">
             </form>
           </section>
