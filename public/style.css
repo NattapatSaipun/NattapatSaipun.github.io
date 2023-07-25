@@ -346,6 +346,9 @@ span{
     .footer {
         padding: 2rem 3%;
     }
+    .video{
+        width: 500;
+    }
 }
 @media (max-width: 768px){
     #menu-icon{
