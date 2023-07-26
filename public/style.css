@@ -346,8 +346,8 @@ span{
     .footer {
         padding: 2rem 3%;
     }
-    .video{
-        width: 500;
+    .video video{
+        width: 930px;
     }
 }
 @media (max-width: 768px){
@@ -402,10 +402,16 @@ span{
     .portforio-container {
         grid-template-columns: repeat(2, 1fr);
     }
+    .video video{
+        width: 720px;
+    }
 }
 @media (max-width: 617px) {
     .portforio-container {
         grid-template-columns: 1fr;
+    }
+    .video video{
+        width: 580px;
     }
 }
 @media (max-width: 450px) {
@@ -414,6 +420,9 @@ span{
     }
     .contact form .input-box input {
         width: 100%;
+    }
+    .video video{
+        width: 420px;
     }
 }
 @media (max-width: 365px) {
@@ -429,6 +438,9 @@ span{
     .footer p {
         text-align: center;
         margin-top: 2rem;
+    }
+    .video video{
+        width: 340px;
     }
 }
 
