@@ -160,6 +160,14 @@ span{
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
 }
+.about-educate .edu-time {
+    font-size: 4rem;
+    margin: 2rem 0 3rem;
+}
+.about-educate p{
+    font-size: 2rem;
+    margin: 2rem 0 3rem;
+}
 .skill h2 {
     margin-bottom: 5rem;
 }
