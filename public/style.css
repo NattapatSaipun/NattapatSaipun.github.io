@@ -115,7 +115,7 @@ span{
     font-size: 2rem;
     color: var(--main-color);
     margin: 3rem 1.5rem 3rem 0; 
-    transition: .5 ease;
+    transition: .5 ease; 
 }
 .social-media a:hover {
     background: var(--main-color);
