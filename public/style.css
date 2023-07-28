@@ -202,6 +202,29 @@ span{
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
 }
+.gameVideo {
+    padding: 20px;
+    float: left;
+    margin-top: 30px;
+    height: 400px;
+    width: 720px;
+
+}
+.gameVideo2{
+    padding: 20px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 130px;
+    height: 400px;
+}
+.GameRow1 {
+   
+    text-align: center;
+}
+.GameRow2 {
+   
+    text-align: right;
+}
 .portfolio {
     background: var(--second-bg-color);
 }
@@ -301,6 +324,13 @@ span{
     margin-top: 2rem;
     cursor: pointer;
 }
+.game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: var(--second-bg-color);
+}
 .footer {
     display: flex;
     justify-content: space-between;
@@ -356,6 +386,9 @@ span{
     }
     .video video{
         width: 930px;
+    }
+    .game{
+        flex-direction: column-reverse;
     }
 }
 @media (max-width: 768px){
@@ -413,12 +446,24 @@ span{
     .video video{
         width: 720px;
     }
+    .game{
+        flex-direction: column-reverse;
+    }
+    .gameVideo video{
+        width: 700px;
+    }
 }
 @media (max-width: 617px) {
     .portforio-container {
         grid-template-columns: 1fr;
     }
     .video video{
+        width: 580px;
+    }
+    .game{
+        flex-direction: column-reverse;
+    }
+    .gameVideo video{
         width: 580px;
     }
 }
@@ -431,6 +476,9 @@ span{
     }
     .video video{
         width: 420px;
+    }
+    .gameVideo video{
+        width: 300px;
     }
 }
 @media (max-width: 365px) {
