@@ -364,6 +364,9 @@ span{
     html {
         font-size: 55%;
     }
+    .game{
+        flex-direction: column-reverse;
+    }
 }
 @media (max-width: 991px) {
     .header {
@@ -385,10 +388,16 @@ span{
         padding: 2rem 3%;
     }
     .video video{
-        width: 930px;
+        width: 800px;
     }
     .game{
         flex-direction: column-reverse;
+    }
+    .about-educate .edu-time{
+        font-size: 2vh;
+    }
+    .about-educate p{
+        font-size: 2vh;
     }
 }
 @media (max-width: 768px){
@@ -452,6 +461,12 @@ span{
     .gameVideo video{
         width: 700px;
     }
+    .about-educate .edu-time{
+        font-size: 2vh;
+    }
+    .about-educate p{
+        font-size: 2vh;
+    }
 }
 @media (max-width: 617px) {
     .portforio-container {
@@ -465,6 +480,12 @@ span{
     }
     .gameVideo video{
         width: 580px;
+    }
+    .about-educate .edu-time{
+        font-size: 2vh;
+    }
+    .about-educate p{
+        font-size: 2vh;
     }
 }
 @media (max-width: 450px) {
