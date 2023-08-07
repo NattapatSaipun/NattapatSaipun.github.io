@@ -208,18 +208,28 @@ span{
     margin-top: 30px;
     height: 400px;
     width: 720px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+
+.ml{
+    margin-left: 30px;
 }
 .gameVideo2{
     padding: 20px;
     float: left;
     margin-top: 30px;
-    margin-left: 130px;
+    margin-left: auto;
+    margin-right: auto;
     height: 400px;
 }
 .GameRow1 {
    
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 .GameRow2 {
    
@@ -389,6 +399,7 @@ span{
     }
     .video video{
         width: 800px;
+        align-items: center;
     }
     .game{
         flex-direction: column-reverse;
@@ -399,6 +410,8 @@ span{
     .about-educate p{
         font-size: 2vh;
     }
+    
+   
 }
 @media (max-width: 768px){
     #menu-icon{
@@ -499,8 +512,12 @@ span{
         width: 420px;
     }
     .gameVideo video{
+        width: 420px;
+    }
+    .gameVideo {
         width: 300px;
     }
+    
 }
 @media (max-width: 365px) {
     .home-img img {
@@ -519,5 +536,9 @@ span{
     .video video{
         width: 340px;
     }
+    .gameVideo video{
+        width: 310px;
+    }
+    
 }
 
