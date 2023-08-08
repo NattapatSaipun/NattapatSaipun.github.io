@@ -377,6 +377,9 @@ span{
     .game{
         flex-direction: column-reverse;
     }
+    .ml{
+        margin-left: 0px;
+    }
 }
 @media (max-width: 991px) {
     .header {
@@ -401,6 +404,10 @@ span{
         width: 800px;
         align-items: center;
     }
+    .video img{
+        width: 800px;
+        
+    }
     .game{
         flex-direction: column-reverse;
     }
@@ -410,7 +417,9 @@ span{
     .about-educate p{
         font-size: 2vh;
     }
-    
+    .ml{
+        margin-left: 0px;
+    }
    
 }
 @media (max-width: 768px){
@@ -468,10 +477,16 @@ span{
     .video video{
         width: 720px;
     }
+    .video img{
+        width: 720px;
+    }
     .game{
         flex-direction: column-reverse;
     }
     .gameVideo video{
+        width: 700px;
+    }
+    .gameVideo img{
         width: 700px;
     }
     .about-educate .edu-time{
@@ -479,6 +494,9 @@ span{
     }
     .about-educate p{
         font-size: 2vh;
+    }
+    .ml{
+        margin-left: 0px;
     }
 }
 @media (max-width: 617px) {
@@ -488,11 +506,20 @@ span{
     .video video{
         width: 580px;
     }
+    .video img{
+        width: 580px;
+    }
     .game{
         flex-direction: column-reverse;
     }
     .gameVideo video{
         width: 580px;
+    }
+    .gameVideo img{
+        width: 500px;
+    }
+    .gameVideo{
+        width: 540px;
     }
     .about-educate .edu-time{
         font-size: 2vh;
@@ -517,7 +544,12 @@ span{
     .gameVideo {
         width: 300px;
     }
-    
+    .video img{
+        width: 400px;
+    }
+    .gameVideo img{
+        width: 400px;
+    }
 }
 @media (max-width: 365px) {
     .home-img img {
@@ -538,6 +570,12 @@ span{
     }
     .gameVideo video{
         width: 310px;
+    }
+    .video img{
+        width: 300px;
+    }
+    .gameVideo img{
+        width: 300px;
     }
     
 }
