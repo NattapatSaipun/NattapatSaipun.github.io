@@ -49,7 +49,7 @@ ScrollReveal().reveal('.home-content p, .about-content',{ origin: 'right' });
 
 /*=============================typed js=============================*/ 
 const typed = new Typed('.multiple-text',{
-    strings: ['Unity Game Developer','Frontend Developer','3D Modeler','2D Artist','Editer'],
+    strings: ['Unity Developer','Frontend Developer','3D Modeler','Video Editer'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
