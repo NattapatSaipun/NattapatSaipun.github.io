@@ -341,6 +341,7 @@ span{
     gap: 2rem;
     background: var(--second-bg-color);
 }
+
 .footer {
     display: flex;
     justify-content: space-between;
@@ -408,6 +409,12 @@ span{
         width: 800px;
         
     }
+    iframe{
+        max-width: 100%;
+        height: auto;
+        aspect-ratio: 16/9;
+        
+    }
     .game{
         flex-direction: column-reverse;
     }
@@ -420,7 +427,6 @@ span{
     .ml{
         margin-left: 0px;
     }
-   
 }
 @media (max-width: 768px){
     #menu-icon{
